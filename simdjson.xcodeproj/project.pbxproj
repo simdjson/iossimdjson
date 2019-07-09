@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A2F39C228B6386001441D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A2F39B228B6386001441D6 /* Default-568h@2x.png */; };
+		A6BA289B22D5333F0007C77A /* simdjson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6BA289A22D5333F0007C77A /* simdjson.cpp */; };
+		A6BA28BC22D538810007C77A /* marine_ik.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA289D22D538800007C77A /* marine_ik.json */; };
+		A6BA28BD22D538810007C77A /* update-center.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA289E22D538800007C77A /* update-center.json */; };
+		A6BA28BE22D538810007C77A /* github_events.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA289F22D538800007C77A /* github_events.json */; };
+		A6BA28BF22D538810007C77A /* mesh.pretty.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A022D538800007C77A /* mesh.pretty.json */; };
+		A6BA28C022D538810007C77A /* gsoc-2018.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A122D538800007C77A /* gsoc-2018.json */; };
+		A6BA28C122D538810007C77A /* mesh.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A222D538800007C77A /* mesh.json */; };
+		A6BA28C222D538810007C77A /* instruments.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A322D538800007C77A /* instruments.json */; };
+		A6BA28C322D538810007C77A /* twitterescaped.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A422D538800007C77A /* twitterescaped.json */; };
+		A6BA28C422D538810007C77A /* random.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A522D538800007C77A /* random.json */; };
+		A6BA28C522D538810007C77A /* truenull.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A722D538800007C77A /* truenull.json */; };
+		A6BA28C622D538810007C77A /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A822D538800007C77A /* demo.json */; };
+		A6BA28C722D538810007C77A /* flatadversarial.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28A922D538800007C77A /* flatadversarial.json */; };
+		A6BA28C822D538810007C77A /* adversarial.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28AA22D538800007C77A /* adversarial.json */; };
+		A6BA28C922D538810007C77A /* google_maps_api_response.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28AC22D538800007C77A /* google_maps_api_response.json */; };
+		A6BA28CA22D538810007C77A /* che-2.geo.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28AD22D538800007C77A /* che-2.geo.json */; };
+		A6BA28CB22D538810007C77A /* che-3.geo.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28AE22D538800007C77A /* che-3.geo.json */; };
+		A6BA28CC22D538810007C77A /* twitter_api_response.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28AF22D538800007C77A /* twitter_api_response.json */; };
+		A6BA28CD22D538810007C77A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B022D538800007C77A /* README.md */; };
+		A6BA28CE22D538810007C77A /* che-1.geo.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B122D538800007C77A /* che-1.geo.json */; };
+		A6BA28CF22D538810007C77A /* twitter_api_compact_response.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B222D538800007C77A /* twitter_api_compact_response.json */; };
+		A6BA28D022D538810007C77A /* google_maps_api_compact_response.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B322D538800007C77A /* google_maps_api_compact_response.json */; };
+		A6BA28D122D538810007C77A /* smalldemo.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B422D538800007C77A /* smalldemo.json */; };
+		A6BA28D222D538810007C77A /* repeat.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B522D538800007C77A /* repeat.json */; };
+		A6BA28D322D538810007C77A /* twitter_timeline.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B622D538800007C77A /* twitter_timeline.json */; };
+		A6BA28D422D538810007C77A /* numbers.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B722D538800007C77A /* numbers.json */; };
+		A6BA28D522D538810007C77A /* canada.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B822D538800007C77A /* canada.json */; };
+		A6BA28D622D538810007C77A /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28B922D538800007C77A /* twitter.json */; };
+		A6BA28D722D538810007C77A /* apache_builds.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28BA22D538800007C77A /* apache_builds.json */; };
+		A6BA28D822D538810007C77A /* citm_catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BA28BB22D538800007C77A /* citm_catalog.json */; };
+		FA25F18F2190670100B8EB8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25F18E2190670100B8EB8F /* AppDelegate.m */; };
+		FA25F1922190670100B8EB8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25F1912190670100B8EB8F /* ViewController.m */; };
+		FA25F1952190670100B8EB8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA25F1932190670100B8EB8F /* Main.storyboard */; };
+		FA25F19A2190670200B8EB8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA25F1982190670200B8EB8F /* LaunchScreen.storyboard */; };
+		FA25F19D2190670200B8EB8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25F19C2190670200B8EB8F /* main.m */; };
+		FAB1A5F121917DAB00CBC05B /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB1A5F021917DAB00CBC05B /* benchmark.cpp */; };
+		FAB1A5F421933A0800CBC05B /* MessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1A5F321933A0800CBC05B /* MessageParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6A2F39B228B6386001441D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A6A2F39D2290C255001441D6 /* datasource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datasource.h; sourceTree = "<group>"; };
+		A6BA289922D5333F0007C77A /* simdjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simdjson.h; sourceTree = "<group>"; };
+		A6BA289A22D5333F0007C77A /* simdjson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simdjson.cpp; sourceTree = "<group>"; };
+		A6BA289D22D538800007C77A /* marine_ik.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = marine_ik.json; sourceTree = "<group>"; };
+		A6BA289E22D538800007C77A /* update-center.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "update-center.json"; sourceTree = "<group>"; };
+		A6BA289F22D538800007C77A /* github_events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = github_events.json; sourceTree = "<group>"; };
+		A6BA28A022D538800007C77A /* mesh.pretty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mesh.pretty.json; sourceTree = "<group>"; };
+		A6BA28A122D538800007C77A /* gsoc-2018.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gsoc-2018.json"; sourceTree = "<group>"; };
+		A6BA28A222D538800007C77A /* mesh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mesh.json; sourceTree = "<group>"; };
+		A6BA28A322D538800007C77A /* instruments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instruments.json; sourceTree = "<group>"; };
+		A6BA28A422D538800007C77A /* twitterescaped.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitterescaped.json; sourceTree = "<group>"; };
+		A6BA28A522D538800007C77A /* random.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = random.json; sourceTree = "<group>"; };
+		A6BA28A722D538800007C77A /* truenull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = truenull.json; sourceTree = "<group>"; };
+		A6BA28A822D538800007C77A /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		A6BA28A922D538800007C77A /* flatadversarial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flatadversarial.json; sourceTree = "<group>"; };
+		A6BA28AA22D538800007C77A /* adversarial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adversarial.json; sourceTree = "<group>"; };
+		A6BA28AC22D538800007C77A /* google_maps_api_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = google_maps_api_response.json; sourceTree = "<group>"; };
+		A6BA28AD22D538800007C77A /* che-2.geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "che-2.geo.json"; sourceTree = "<group>"; };
+		A6BA28AE22D538800007C77A /* che-3.geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "che-3.geo.json"; sourceTree = "<group>"; };
+		A6BA28AF22D538800007C77A /* twitter_api_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_api_response.json; sourceTree = "<group>"; };
+		A6BA28B022D538800007C77A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6BA28B122D538800007C77A /* che-1.geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "che-1.geo.json"; sourceTree = "<group>"; };
+		A6BA28B222D538800007C77A /* twitter_api_compact_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_api_compact_response.json; sourceTree = "<group>"; };
+		A6BA28B322D538800007C77A /* google_maps_api_compact_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = google_maps_api_compact_response.json; sourceTree = "<group>"; };
+		A6BA28B422D538800007C77A /* smalldemo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smalldemo.json; sourceTree = "<group>"; };
+		A6BA28B522D538800007C77A /* repeat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repeat.json; sourceTree = "<group>"; };
+		A6BA28B622D538800007C77A /* twitter_timeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_timeline.json; sourceTree = "<group>"; };
+		A6BA28B722D538800007C77A /* numbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numbers.json; sourceTree = "<group>"; };
+		A6BA28B822D538800007C77A /* canada.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = canada.json; sourceTree = "<group>"; };
+		A6BA28B922D538800007C77A /* twitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter.json; sourceTree = "<group>"; };
+		A6BA28BA22D538800007C77A /* apache_builds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apache_builds.json; sourceTree = "<group>"; };
+		A6BA28BB22D538800007C77A /* citm_catalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citm_catalog.json; sourceTree = "<group>"; };
+		FA25F18A2190670100B8EB8F /* simdjson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simdjson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA25F18D2190670100B8EB8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA25F18E2190670100B8EB8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA25F1902190670100B8EB8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA25F1912190670100B8EB8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA25F1942190670100B8EB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA25F1992190670200B8EB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA25F19B2190670200B8EB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA25F19C2190670200B8EB8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB1A5F021917DAB00CBC05B /* benchmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		FAB1A5F321933A0800CBC05B /* MessageParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageParser.m; sourceTree = "<group>"; };
+		FAB1A5F521933A2D00CBC05B /* MessageParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageParser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA25F1872190670100B8EB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6BA289C22D538800007C77A /* jsonexamples */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA289D22D538800007C77A /* marine_ik.json */,
+				A6BA289E22D538800007C77A /* update-center.json */,
+				A6BA289F22D538800007C77A /* github_events.json */,
+				A6BA28A022D538800007C77A /* mesh.pretty.json */,
+				A6BA28A122D538800007C77A /* gsoc-2018.json */,
+				A6BA28A222D538800007C77A /* mesh.json */,
+				A6BA28A322D538800007C77A /* instruments.json */,
+				A6BA28A422D538800007C77A /* twitterescaped.json */,
+				A6BA28A522D538800007C77A /* random.json */,
+				A6BA28A622D538800007C77A /* small */,
+				A6BA28B722D538800007C77A /* numbers.json */,
+				A6BA28B822D538800007C77A /* canada.json */,
+				A6BA28B922D538800007C77A /* twitter.json */,
+				A6BA28BA22D538800007C77A /* apache_builds.json */,
+				A6BA28BB22D538800007C77A /* citm_catalog.json */,
+			);
+			path = jsonexamples;
+			sourceTree = "<group>";
+		};
+		A6BA28A622D538800007C77A /* small */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA28A722D538800007C77A /* truenull.json */,
+				A6BA28A822D538800007C77A /* demo.json */,
+				A6BA28A922D538800007C77A /* flatadversarial.json */,
+				A6BA28AA22D538800007C77A /* adversarial.json */,
+				A6BA28AB22D538800007C77A /* jsoniter_scala */,
+				A6BA28B422D538800007C77A /* smalldemo.json */,
+				A6BA28B522D538800007C77A /* repeat.json */,
+				A6BA28B622D538800007C77A /* twitter_timeline.json */,
+			);
+			path = small;
+			sourceTree = "<group>";
+		};
+		A6BA28AB22D538800007C77A /* jsoniter_scala */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA28AC22D538800007C77A /* google_maps_api_response.json */,
+				A6BA28AD22D538800007C77A /* che-2.geo.json */,
+				A6BA28AE22D538800007C77A /* che-3.geo.json */,
+				A6BA28AF22D538800007C77A /* twitter_api_response.json */,
+				A6BA28B022D538800007C77A /* README.md */,
+				A6BA28B122D538800007C77A /* che-1.geo.json */,
+				A6BA28B222D538800007C77A /* twitter_api_compact_response.json */,
+				A6BA28B322D538800007C77A /* google_maps_api_compact_response.json */,
+			);
+			path = jsoniter_scala;
+			sourceTree = "<group>";
+		};
+		FA25F1812190670100B8EB8F = {
+			isa = PBXGroup;
+			children = (
+				A6BA289C22D538800007C77A /* jsonexamples */,
+				A6A2F39B228B6386001441D6 /* Default-568h@2x.png */,
+				FA25F18C2190670100B8EB8F /* simdjson */,
+				FA25F18B2190670100B8EB8F /* Products */,
+				FA25F1AF219093C100B8EB8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA25F18B2190670100B8EB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA25F18A2190670100B8EB8F /* simdjson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA25F18C2190670100B8EB8F /* simdjson */ = {
+			isa = PBXGroup;
+			children = (
+				A6BA289A22D5333F0007C77A /* simdjson.cpp */,
+				A6BA289922D5333F0007C77A /* simdjson.h */,
+				FA25F18D2190670100B8EB8F /* AppDelegate.h */,
+				FA25F18E2190670100B8EB8F /* AppDelegate.m */,
+				FA25F1902190670100B8EB8F /* ViewController.h */,
+				FA25F1912190670100B8EB8F /* ViewController.m */,
+				FAB1A5F521933A2D00CBC05B /* MessageParser.h */,
+				FAB1A5F321933A0800CBC05B /* MessageParser.m */,
+				FA25F1932190670100B8EB8F /* Main.storyboard */,
+				FA25F1982190670200B8EB8F /* LaunchScreen.storyboard */,
+				FA25F19B2190670200B8EB8F /* Info.plist */,
+				FA25F19C2190670200B8EB8F /* main.m */,
+				FAB1A5F021917DAB00CBC05B /* benchmark.cpp */,
+				A6A2F39D2290C255001441D6 /* datasource.h */,
+			);
+			path = simdjson;
+			sourceTree = "<group>";
+		};
+		FA25F1AF219093C100B8EB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA25F1892190670100B8EB8F /* simdjson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA25F1A02190670200B8EB8F /* Build configuration list for PBXNativeTarget "simdjson" */;
+			buildPhases = (
+				FA25F1862190670100B8EB8F /* Sources */,
+				FA25F1872190670100B8EB8F /* Frameworks */,
+				FA25F1882190670100B8EB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simdjson;
+			productName = mofongo;
+			productReference = FA25F18A2190670100B8EB8F /* simdjson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA25F1822190670100B8EB8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vision Smarts";
+				TargetAttributes = {
+					FA25F1892190670100B8EB8F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FA25F1852190670100B8EB8F /* Build configuration list for PBXProject "simdjson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA25F1812190670100B8EB8F;
+			productRefGroup = FA25F18B2190670100B8EB8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA25F1892190670100B8EB8F /* simdjson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA25F1882190670100B8EB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BA28D822D538810007C77A /* citm_catalog.json in Resources */,
+				A6BA28CB22D538810007C77A /* che-3.geo.json in Resources */,
+				A6BA28CE22D538810007C77A /* che-1.geo.json in Resources */,
+				A6BA28C422D538810007C77A /* random.json in Resources */,
+				A6BA28C522D538810007C77A /* truenull.json in Resources */,
+				A6BA28CD22D538810007C77A /* README.md in Resources */,
+				A6BA28D622D538810007C77A /* twitter.json in Resources */,
+				A6BA28C122D538810007C77A /* mesh.json in Resources */,
+				FA25F19A2190670200B8EB8F /* LaunchScreen.storyboard in Resources */,
+				A6BA28CF22D538810007C77A /* twitter_api_compact_response.json in Resources */,
+				A6BA28D722D538810007C77A /* apache_builds.json in Resources */,
+				A6BA28BC22D538810007C77A /* marine_ik.json in Resources */,
+				A6BA28C922D538810007C77A /* google_maps_api_response.json in Resources */,
+				A6BA28C022D538810007C77A /* gsoc-2018.json in Resources */,
+				A6BA28C822D538810007C77A /* adversarial.json in Resources */,
+				A6BA28BF22D538810007C77A /* mesh.pretty.json in Resources */,
+				A6BA28C722D538810007C77A /* flatadversarial.json in Resources */,
+				A6BA28D222D538810007C77A /* repeat.json in Resources */,
+				A6BA28CA22D538810007C77A /* che-2.geo.json in Resources */,
+				A6BA28D022D538810007C77A /* google_maps_api_compact_response.json in Resources */,
+				FA25F1952190670100B8EB8F /* Main.storyboard in Resources */,
+				A6BA28D122D538810007C77A /* smalldemo.json in Resources */,
+				A6BA28C222D538810007C77A /* instruments.json in Resources */,
+				A6BA28D422D538810007C77A /* numbers.json in Resources */,
+				A6BA28D322D538810007C77A /* twitter_timeline.json in Resources */,
+				A6A2F39C228B6386001441D6 /* Default-568h@2x.png in Resources */,
+				A6BA28CC22D538810007C77A /* twitter_api_response.json in Resources */,
+				A6BA28C622D538810007C77A /* demo.json in Resources */,
+				A6BA28D522D538810007C77A /* canada.json in Resources */,
+				A6BA28C322D538810007C77A /* twitterescaped.json in Resources */,
+				A6BA28BD22D538810007C77A /* update-center.json in Resources */,
+				A6BA28BE22D538810007C77A /* github_events.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA25F1862190670100B8EB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA25F1922190670100B8EB8F /* ViewController.m in Sources */,
+				FA25F19D2190670200B8EB8F /* main.m in Sources */,
+				FAB1A5F121917DAB00CBC05B /* benchmark.cpp in Sources */,
+				FA25F18F2190670100B8EB8F /* AppDelegate.m in Sources */,
+				A6BA289B22D5333F0007C77A /* simdjson.cpp in Sources */,
+				FAB1A5F421933A0800CBC05B /* MessageParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA25F1932190670100B8EB8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA25F1942190670100B8EB8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA25F1982190670200B8EB8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA25F1992190670200B8EB8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA25F19E2190670200B8EB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA25F19F2190670200B8EB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA25F1A12190670200B8EB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ4M2592H5;
+				INFOPLIST_FILE = simdjson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.simdjson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA25F1A22190670200B8EB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ4M2592H5;
+				"GCC_OPTIMIZATION_LEVEL[sdk=iphoneos12.2]" = s;
+				INFOPLIST_FILE = simdjson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.simdjson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA25F1852190670100B8EB8F /* Build configuration list for PBXProject "simdjson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA25F19E2190670200B8EB8F /* Debug */,
+				FA25F19F2190670200B8EB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA25F1A02190670200B8EB8F /* Build configuration list for PBXNativeTarget "simdjson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA25F1A12190670200B8EB8F /* Debug */,
+				FA25F1A22190670200B8EB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA25F1822190670100B8EB8F /* Project object */;
+}
