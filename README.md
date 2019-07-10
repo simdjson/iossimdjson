@@ -56,7 +56,7 @@ That's unfair, however, because the skylake processor benefits from 256-bit regi
 Let us 'downgrade' the skylake processor by disabling AVX instructions, we then 
 get speeds of 1.9 GB/s, 1.4 GB/s, 1.6 GB/s, 1.3 GB/s. So with a corrected clock, we find
 that Apple's A12 processor is somewhere between a skylake processor with AVX disabled and
-a full skylake processor, with the caveat that we have the 'scale' the frequency of the iPhone processor
+a full skylake processor, with the caveat that we have to 'scale' the frequency of the iPhone processor
 artificially.
 
 
