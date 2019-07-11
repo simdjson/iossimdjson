@@ -59,7 +59,9 @@ that Apple's A12 processor is somewhere between a skylake processor with AVX dis
 a full skylake processor, with the caveat that we have to 'scale' the frequency of the iPhone processor
 artificially.
 
+##  CocoaPods
 
+There is a CocoaPods version: https://github.com/ppamorim/simdjson-cocoa
 
 ## Credit
 
